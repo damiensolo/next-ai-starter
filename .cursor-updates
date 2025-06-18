@@ -6,3 +6,6 @@
 - Fixed dynamic route warning by adding force-dynamic config to root page
 - Added Storybook with Button component and stories, updated .cursorrules with Storybook guidelines
 - Captured screenshot of Button component stories in Storybook
+- Created a new reusable, interactive Toggle component matching Figma design and added a fully documented Storybook story with all states, sizes, and variants.
+- Fixed Next.js build error by directly importing and rendering HomeClient inside ClientProvider, ensuring all interactive UI is in a client component.
+- Added the Toggle and RadioButton components to the homepage, centered in the middle of the page.

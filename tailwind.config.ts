@@ -296,7 +296,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Inter var", "sans-serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
         display: ["Lexend", "sans-serif"],
         figtree: ["Figtree", "sans-serif"],
         crimson: ['"Crimson Text"', "serif"],
